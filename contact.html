@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urmi's Fashion Optimist | Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                <img src="images/logo1.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="gallary.html">Gallary</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section>
+        <div class="block">
+            <div style="background-image: url(images/cover.jpg);" class="fixed-bg"></div>
+            <div class="Merchant-searching text-center">
+                <div class="Merchant-searching-inner">
+                    <h2 itemprop="headline">Contact US!!</h2>
+                    <img class="bottom-clouds-mockup" src="images/clouds.png" alt="clouds.png" itemprop="image">
+                </div><!-- Merchant Searching -->
+            </div>
+    </section>
+
+    <div class="container">
+        <form id="contact">
+            <h3> Contact Form</h3>
+            <h4>Contact us for more details...</h4>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+
+        </form>
+        <hr>
+
+        <div class="card" style="width: 19rem;">
+            <img src="images\sid.jpg" width="300px">
+            <div class="card-body">
+                <h5 class="card-title">Contact Details of Developer!</h5>
+                <h6>Sidharth Verma</h6>
+                <p>Contact No : <a href="tel:+91 6367562964">6367562964</a></p>
+                <p>Gmail : <a href="mailto:sidharthv605@gmail.com">sidharthv605@gmail.com</a></p>
+                <a href="https://www.instagram.com/__sidharth.v/"><i style="height: 10px;" id="social-tw"
+                        class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sidharth-verma-3830801b2/"><i id="social-in"
+                        class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="lab_social_icon_footer">
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container3">
+            <div class="text-center" style="margin-top: -28px;">
+                <a href="https://www.facebook.com/urmilavermaaa"><i id="social-fb"
+                        class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://www.instagram.com/urmii_verma/"><i id="social-gp"
+                        class="fa fa-instagram fa-3x social"></i></a>
+            </div>
+            <p style="text-align: center; font-size: medium; ">Design & Developed by: <a
+                    href="https://www.instagram.com/__sidharth.v/" style="font-size: medium;">Sidharth Verma</a></p>
+        </div>
+    </section>
+    <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+
+    </script>
+
+</body>
+
+</html>

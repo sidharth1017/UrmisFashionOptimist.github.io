@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Urmi's Fashion Optimist | Home</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <style>
+    .popular-dish-info a {
+      color: #da0883;
+      text-decoration: none;
+    }
+
+    .brd-rd2:hover {
+      color: black;
+      background-color: #da0883;
+    }
+
+    .content-paragraph {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card-container,
+    .front,
+    .back {
+      width: 25rem;
+      height: 29rem;
+    }
+
+    .card-container {
+      margin: 5rem;
+    }
+
+    .front,
+    .back {
+      box-sizing: border-box;
+      padding: 2rem;
+      border-radius: 4px;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+
+      font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 2rem;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    /* front side bg is green gradient */
+    .front {
+      background-image: linear-gradient(to right bottom, #000000, #000000);
+    }
+
+    /* back side bg is orange gradient */
+    .back {
+      background-image: linear-gradient(to right bottom, #f1c40f, #e67e22);
+    }
+
+    .card-container {
+      position: relative;
+    }
+
+    .front,
+    .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+      overflow: hidden;
+      transition: transform .8s ease;
+    }
+
+    .back {
+      transform: rotateY(180deg);
+    }
+
+    .card-container:hover .front {
+      transform: rotateY(-180deg);
+    }
+
+    .card-container:hover .back {
+      transform: rotateY(0deg);
+    }
+
+    .card-container {
+      perspective: 75rem;
+    }
+    .front img{
+      width: inherit;
+      margin-left: -20px;
+    }
+    .back img{
+      width: inherit;
+      margin-left: -20px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        <img src="images/logo1.png" alt="">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <section>
+    <div class="block">
+      <div style="background-image: url(images/cover.jpg);" class="fixed-bg"></div>
+      <div class="Merchant-searching text-center">
+        <div class="Merchant-searching-inner">
+          <h2 itemprop="headline">Fashion <span>that reflect</span> who you are!</h2>
+          <img class="bottom-clouds-mockup" src="images/clouds.png" alt="clouds.png" itemprop="image">
+        </div><!-- Merchant Searching -->
+      </div>
+  </section>
+
+
+  <div class="container">
+    <div class="content">
+      <div class="content-img">
+        <img src="images\urmis.jpg" alt="Body Building">
+      </div>
+      <div class="content-text">
+        <h2 class="content-title">Urmi's Fashion Optimist</h2>
+        <h4 class="content-subtitle">HELLO! WHAT'S UP?</h4>
+        <p class="content-paragraph">I am Urmila Verma from Mumbai. I am a Actor, Model and a passionate Beauty Artist.
+          The first thing which i liked from this profession is I met lot of people and learn alot!! <br>
+          I have done Diploma in acting from one of the professional acting school "Deepak Gupta's acttor maker".</p>
+        <h4 class="content-subtitle">Work Experience!</h4>
+        <p class="content-paragraph">As Actor I have worked in Crime alert, Advertisment Shoot, Short Movies & Other.
+          <br>
+          Also, I has been Model at NIMCO Soap, Panaache Clander Shoot Associate Director.</p>
+        <div class="btn_wrap">
+          <span>Share</span>
+          <div class="container1">
+            <a href="https://www.facebook.com/urmilavermaaa" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fa fa-twitter "></i>
+            </a>
+            <a href="https://www.instagram.com/urmii_verma/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="card-container">
+      <div class="front">
+        <img src="images\home_1.jpg" alt="">
+      </div>
+      <div class="back">MODEL
+        <img src="images\10.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="front">
+        <img src="images\home_2.jpg" alt="">
+      </div>
+      <div class="back">ACTOR
+        <img src="images\8.jpg" alt="">
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="front">
+        <img src="images\home_3.jpg" alt="">
+      </div>
+      <div class="back">MAKEUP ARTIST
+        <img src="images\urmis.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="container3">
+      <div class="text-center" style="margin-top: -28px;">
+        <a href="https://www.facebook.com/urmilavermaaa" target="_blank"><i id="social-fb"
+            class="fa fa-facebook-square fa-3x social"></i></a>
+        <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+        <a href="https://www.instagram.com/urmii_verma/" target="_blank"><i id="social-gp"
+            class="fa fa-instagram fa-3x social"></i></a>
+      </div>
+      <p style="text-align: center; font-size: medium; ">Design & Developed by: <a
+          href="https://www.instagram.com/__sidharth.v/" target="_blank">Sidharth Verma</a></p>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+
+    // Menu-toggle button
+
+    $(document).ready(function () {
+      $(".menu-icon").on("click", function () {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+
+
+  </script>
+
+</body>
+
+</html>

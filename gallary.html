@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urmi's Fashion Optimist | Gallary</title>
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head> 
+<style>
+    section {
+    margin-left: -16px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                <img src="images/logo1.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="gallary.html">Gallary</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section>
+        <div class="block">
+            <div style="background-image: url(images/cover.jpg);" class="fixed-bg"></div>
+            <div class="Merchant-searching text-center">
+                <div class="Merchant-searching-inner">
+                    <h2 itemprop="headline">Fashion <span>that reflect</span> who you are!</h2>
+                    <img class="bottom-clouds-mockup" src="images/clouds.png" alt="clouds.png" itemprop="image">
+                </div><!-- Merchant Searching -->
+            </div>
+    </section>
+
+    <section>
+        <h1>My Photo Gallary</h1>
+        <h1></h1>
+        <div class="gallary" style="object-fit: contain;">
+            <a href="#"  data-title="This is a bird"><img src="images\home_1.jpg"></a>
+            <a href="#" ><img src="images\2 (2).jpg"></a>
+            <a href="#" ><img src="images\3 (2).jpg"></a>
+            <a href="#" ><img src="images\home_2.jpg"></a>
+            <a href="#" ><img src="images\8.jpg"></a>
+            <a href="#" ><img src="images\6.jpg"></a>
+            <a href="#" ><img src="images\10.jpg"></a>
+            <a href="#" ><img src="images\23.jpg"></a>
+        </div>
+    </section>
+
+
+    <section>
+        <h1>Valueable Certificates </h1>
+        <div class="gallary">
+            <a href="#"  data-title="This is a bird"><img src="images\certificate 1.jpg"></a>
+            <a href="#" ><img src="images\certificate 7.jpg"></a>
+            <a href="#" ><img src="images\certificate 8.jpg"></a>
+            <a href="#" ><img src="images\certificate 4.jpg"></a>
+            <a href="#" ><img src="images\certificate 5.jpg"></a>
+            <a href="#" ><img src="images\certificate 6.jpg"></a>
+            <a href="#" ><img src="images\certificate 2.jpg"></a>
+            <a href="#" ><img src="images\certificate 3.jpg"></a>
+        </div>
+    </section>
+
+    <section>
+        <h1>Makeover by me!!</h1>
+        <div class="gallary">
+            <a href="#" ><img src="images\makeup_1.jpg"></a>
+            <a href="#" ><img src="images\makeup_4.jpg"></a>
+            <a href="#" ><img src="images\makeup_2.jpg"></a>
+            <a href="#" ><img src="images\makeup_3.jpg"></a>
+        </div>
+    </section>
+
+    <section id="lab_social_icon_footer">
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container3">
+          <div class="text-center" style="margin-top: -28px;">
+            <a href="https://www.facebook.com/urmilavermaaa"><i id="social-fb"
+                class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://www.instagram.com/urmii_verma/"><i id="social-gp"
+                class="fa fa-instagram fa-3x social"></i></a>
+          </div>
+          <p style="text-align: center; font-size: medium; ">Design & Developed by: <a href="https://www.instagram.com/__sidharth.v/" style="font-size: medium;">Sidharth Verma</a></p>
+        </div>
+      </section>
+
+    <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+
+    </script>
+
+</body>
+
+</html>
