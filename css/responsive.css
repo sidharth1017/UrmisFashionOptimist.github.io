@@ -1,0 +1,89 @@
+@media (max-width:1024px){
+	html,body{overflow-x: hidden;}
+	.block{padding: 60px 0;}
+	h2.title3{font-size: 30px;}
+
+	.fixed-bg {
+	    background-attachment: initial !important;
+    }
+    .block.top-padd210{padding-top: 170px;}
+}
+
+@media (max-width:980px){
+	
+	.block{padding: 60px 0}
+	.Merchant-searching-inner > h2 {max-width: 75%;}
+	.left-building-mockup, 
+	.right-building-mockup{max-width: 60%;}
+    .left-scooty-mockup {max-width: 35%;}
+    .block.bottom-padd210 {padding-bottom: 0px;}
+    .block.bottom-padd140 {padding-bottom: 65px;}
+    .block.bottom-padd140{padding-bottom: 60px;}
+	.block.gray-bg.bottom-padd210.top-padd30{
+		padding-bottom: 30px;
+	}
+	
+	
+}
+@media (max-width:768px){
+    .block.bottom-padd80 {padding-bottom: 50px;}
+    .Merchant-searching-inner > h2 {max-width: 90%;font-size: 40px;line-height: 45px; margin-top: 100px;}
+    .Merchant-searching.style2 {padding: 0 50px 50px;}
+	.Merchant-searching.style2 .Merchant-searching-inner > h2 {font-size: 37px;}
+}
+@media (min-width: 481px) and (max-width:640px){
+    .block.top-padd30 {
+		padding: 30px 10px;
+	}
+	.Merchant-searching-inner > h2{font-size: 30px;}
+	.Merchant-searching-inner > h2 span{font-size: 40px;}
+	.fixed-bg {
+	    background-attachment: fixed !important;
+	}
+
+}
+
+@media (max-width:480px){
+    .block.top-padd210{padding-top: 140px;}
+    .block.top-padd30 {
+		padding: 30px 10px;
+	}
+	.fixed-bg {
+		background-attachment: initial !important;
+		background: content-box;
+    }
+    .Merchant-searching-inner > h2 {font-size: 25px;line-height: 35px;}
+    .Merchant-searching-inner > h2 {font-size: 30px;margin-bottom: 10px;}
+    .Merchant-searching-inner > h2 span{
+		font-size: 30px;
+	}
+	.Merchant-searching {
+		float: left;
+		width: 100%;
+		padding: 0 100px 6px;
+	}
+	
+}
+@media (max-width:420px){
+    .bottom-clouds-mockup {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+    .block.top-padd30 {
+		padding: 30px 10px;
+    }
+    .block.bottom-padd80 {padding-bottom: 30px;}
+
+    .Merchant-searching-inner > h2 {font-size: 25px;margin-bottom: 0; margin-top: 42px;}
+    .Merchant-searching-inner > span{font-size: 45px;}
+}
+
+@media (max-width:320px){
+
+	.bottom-clouds-mockup {
+		bottom: 0px;
+	}
+}
